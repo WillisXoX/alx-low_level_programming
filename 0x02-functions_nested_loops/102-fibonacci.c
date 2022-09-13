@@ -14,7 +14,7 @@ int main(void)
 
 	for (counter = 1; counter <= (countto / 2); counter++)
 	{
-		if (counter <= 23)
+		if (counter <= 24)
 		{
 
 			printf("%li, %li, ", a, b);
