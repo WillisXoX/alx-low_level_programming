@@ -7,10 +7,10 @@
 
 int main(void)
 {
-	int sum_of_evens = 0;
+	int sum_of_evens = 2;
 	int a;
 	int b;
-	int sum = 2;
+	int sum ;
 
 	a = 1;
 	b = 2;
