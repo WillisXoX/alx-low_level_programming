@@ -13,7 +13,7 @@ int main(void)
 	int sum;
 
 	a = 1;
-	b = 2;
+	b = 1;
 
 	while (b < 4000000)
 	{
