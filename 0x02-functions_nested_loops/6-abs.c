@@ -2,6 +2,7 @@
 
 /**
  * _abs - Entry point
+ * @n: integer argument
  * Return: Always 0
  */
 

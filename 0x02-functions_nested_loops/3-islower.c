@@ -1,8 +1,9 @@
 #include "main.h"
 
 /**
- * islower - check for lower character
- * Rreturn: Always 0
+ * _islower - check for lower character
+ * @c: integer argument
+ * Return: Always 0
  */
 
 int _islower(int c)

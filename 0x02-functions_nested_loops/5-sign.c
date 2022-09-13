@@ -2,6 +2,7 @@
 
 /**
  * print_sign - Entry point
+ * @n: integer argument
  * Return: Always (1,0 or -1)
  */
 

@@ -2,6 +2,7 @@
 
 /**
  * _isalpha - Entry point
+ * @c: integer argument
  * Return: Always 0
  */
 
