@@ -10,7 +10,7 @@ int main(void)
 	int sum_of_evens = 0;
 	int a;
 	int b;
-	int sum = 1;
+	int sum = 2;
 
 	a = 1;
 	b = 2;
