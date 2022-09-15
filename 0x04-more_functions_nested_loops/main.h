@@ -69,4 +69,11 @@ void print_diagonal(int n);
 
 void print_square(int size);
 
+/**
+ * print_triangle - prints a triangl
+ * @size: interger variable
+ */
+
+void print_triangle(int size);
+
 #endif
