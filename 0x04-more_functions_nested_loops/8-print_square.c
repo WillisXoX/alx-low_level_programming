@@ -7,11 +7,13 @@
 
 void print_square(int size)
 {
+	int row, column;
+
 	if (size > 0)
 	{
-		for (int i = size; i > 0; i--)
+		for (row = 1; row <= size; row++)
 		{
-			for (int j = size; j > 0; j--)
+			for (column = 1; column <= size; column++)
 			{
 				_putchar('#');
 			}
@@ -19,8 +21,5 @@ void print_square(int size)
 		}
 	}
 	else
-	{
 		_putchar('\n');
-	}
 }
-
