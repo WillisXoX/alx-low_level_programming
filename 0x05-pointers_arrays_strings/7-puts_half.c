@@ -40,10 +40,12 @@ void puts_half(char *str)
 		idx = (len / 2) + 1;
 	}
 
-	for (int i = len - 1; i >= idx; i--)
+	while (idx < len)
 	{
-		_putchar(str[i]);
+		_putchar(*(str + idx));
+		idx++;
 	}
+
 	_putchar('\n');
 }
 
