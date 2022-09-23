@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _strncat - concatenate n bytes to destination string
+ * _strcat - concatenate n bytes to destination string
  * @dest: string to be appended to
  * @src: string to append
  * Return: concatenated string
