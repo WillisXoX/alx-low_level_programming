@@ -83,7 +83,6 @@ void print_diagsums(int *a, int size);
  * @to: char
  */
 
-void set_strig(char **, char *to);
-
+void set_strig(char **s, char *to);
 
 #endif
