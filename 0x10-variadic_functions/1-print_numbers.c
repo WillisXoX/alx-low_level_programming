@@ -3,28 +3,22 @@
 #include "variadic_functions.h"
 
 /**
- * print_strings - print varying amount of strings
+ * print_numbers - print varying amount of numbers
  * @separator: delimiter
  * @n: amount of arguments in list
  */
 
-void print_strings(const char *separator, const unsigned int n, ...)
+void print_numbers(const char *separator, const unsigned int n, ...)
 {
 	va_list valist;
 	unsigned int i;
-	char *s;
 
 	if (n > 0)
 	{
 		va_start(valist, n);
 		for (i = 1; i <= n; i++)
 		{
-			s = va_arg(valist, char *);
-			if (s == NULL)
-				printf("(nil)");
-			else
-				printf("%s", s);
-
+			printf("%d", va_arg(valist, int));
 			if (i != n && separator != NULL)
 				printf("%s", separator);
 		}
